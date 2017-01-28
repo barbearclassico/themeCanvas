@@ -7,5 +7,5 @@ This theme is based on the work of [Dhayzon](http://www.simplemachines.org/commu
 Deploy
 ======
 
-TARGET=host ;  rsync -arzhv . --exclude ".*" root@$TARGET:/srv/barbearclassico/Themes/Canvas/.
+    TARGET=host ;  rsync -arzhv . --exclude ".*" root@$TARGET:/srv/barbearclassico/Themes/Canvas/.
 
