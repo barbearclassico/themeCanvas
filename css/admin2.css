@@ -1,0 +1,56 @@
+div#dhayzon-theme-settings {overflow : hidden;}
+.dhayzon_theme_options {
+background : white;
+width : 250px;
+float : left;
+margin-right : 10px;
+}
+.dhayzon_theme_content {overflow : hidden;}
+.dhayzon_theme_options > a {
+display : inline-block;
+width : 100%;
+padding : 10px;
+border-bottom : 1px solid #dfdfdf;
+}
+body.openh #wrapper:after {
+    position:relative;
+}
+.dhayzon_theme_tab .cat_bar h3 {
+padding : 0 10px;
+margin : 0;
+}
+.dhayzon_theme_tab .cat_bar {
+background : #dbdbdb;
+padding : 10px 0;
+border-radius : 3px 3px 0 0;
+}
+.dhayzon_theme_tab .windowbg {
+padding : 10px;
+}
+.dhayzon_theme_content .current {display : block;margin-right: 0;}
+.dhayzon_theme_options .current {
+background : #dbdbdb;
+}
+.dhayzon_theme_content > div {
+    display : none;
+    margin-top: 0px;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+    }
+ .dhayzon_theme_content dl {
+    background: white;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+div[id^="theme_"]{
+    margin-bottom:150px;
+}
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px) {
+.dhayzon_theme_options,.dhayzon_theme_content{
+    width: 100%;
+}
+
+}

@@ -1,0 +1,157 @@
+
+@media only screen and (max-width: 700px) {
+ 
+ .buttonlist li {
+    padding: 5px;
+}
+[id^="dmsg_"]{
+	border-bottom: 1px solid #edebeb;
+}
+
+.pagelinks, #admin_content .pagesection{
+    background: #ededed;
+    padding: 10px;
+    display: inline-block;
+    margin: 3px 0;
+    border-radius: 3px;
+}
+
+#quickreplybox h3.catbg{
+    padding: 10px;
+}
+ .poster>ul>li{
+ }
+ form#postmodify .roundframe{
+ 	padding: 0;
+ }
+#post_header dt, .postbox dt,form#postmodify .roundframe,dl.register_form dt, dl.register_form dd, #detailedinfo, #basicinfo, .keyinfo, #stats_left, #top_posters, #top_topics_replies, #top_topics_starter, #stats_right, #top_boards, #top_topics_views, #most_online{
+	width: 100%;
+}
+ form#registration,form#frmLogin{
+	text-align: center;
+}
+.keyinfo {
+    padding: 5px;
+    display: inline-block;
+}
+h1.forumtitle {
+    font-size: 23px;
+    line-height: 24px;
+}
+.keyinfo .smalltext {
+    font-size: 11px;
+}
+	#content_section,.dhayzon_log_in{
+		width: 99%!important;
+		padding: 0;
+	}
+	.lastpost
+{
+	 width: 30%;
+	 float: right;
+}
+.buttonlist{
+	padding: 0;
+}
+.inner,.moderatorbar{
+	padding: 10px;
+	margin: 0;
+}
+.block-group>.block.stats
+{
+ 	width: 17%;
+ 	text-align: center;
+}
+#boardindex_table .icon,.childboards .icon,#messageindex .icon
+{
+ 	width: 11%;
+ 	right: 0;
+ 	bottom: 0;
+}
+#content_section .info {
+	width: 39%;
+}
+.block-group>.block{
+           /* NEW, Spec - Opera 12.1, Firefox 20+ */
+           :
+           margin-left: 0
+           width: 100%;
+           margin: 0;
+}
+}
+@media only screen and (max-width: 420px) {
+	li#button_home .aHamburger-icon{
+		display:inline-block;
+	}
+	.openh #wrapper span.hamburgerIcon{
+		display:none;
+
+	}
+	#boardindex_table .icon,.childboards .icon,#messageindex .icon
+{
+ 	width: 15%;
+}
+
+#content_section .info{
+	width: 83%;
+}
+.table_list .content{
+	padding: 5px;
+}
+#messageindex .table_list .content{
+	background: #f6f8f9;
+}
+.lastpost{
+	width: 83%;
+	/* float: none; */
+}
+ .firstPostT h1{
+	width: 100%;
+	padding: 0;
+	display: inline-block;
+}
+.oTersPostT .poster{width: 18%;}
+.poster h4, .poster ul{
+	padding:0;
+	margin: 0 5px;
+}
+ #quickreplybox .poster{
+ 	display:none;
+ }
+ .login dt, .login dd{
+ 	width: 100%;
+ 	float: none;
+ 	text-align: center;
+ }
+ .dhayzon_log_in{
+ 	text-align: center;
+ 	padding: 0 5px;
+ }
+ .dhayzon_log_in li,.dhayzon_log_in input {
+    width: 100%;
+}
+.block-group>.block.stats{
+	display:none;
+}
+.titlebg select {
+    width: 100%;
+    margin-bottom: 11px;
+}
+.topic_stats_dhayzon span{
+    width: 100%;
+    display: inline-block;
+}
+#messageindex .lastpost {
+    width: 84%;
+}
+div.frame{
+	padding: 0;
+}
+.oTersPostT  .keyinfo h3{
+    float: left;
+    width: 75%;
+}
+.firstPostT .TopicButtons {
+    top: inherit;
+}
+}
