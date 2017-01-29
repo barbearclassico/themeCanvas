@@ -89,11 +89,87 @@ h1.forumtitle {
 	}
 	#boardindex_table .icon,.childboards .icon,#messageindex .icon
 {
- 	width: 5%;
+ 	width: 15%;
 }
 
 #content_section .info{
 	width: 83%;
+}
+.table_list .content{
+	padding: 5px;
+}
+#messageindex .table_list .content{
+	background: #f6f8f9;
+}
+.lastpost{
+	width: 83%;
+	/* float: none; */
+}
+ .firstPostT h1{
+	width: 100%;
+	padding: 0;
+	display: inline-block;
+}
+.oTersPostT .poster{width: 18%;}
+.poster h4, .poster ul{
+	padding:0;
+	margin: 0 5px;
+}
+ #quickreplybox .poster{
+ 	display:none;
+ }
+ .login dt, .login dd{
+ 	width: 100%;
+ 	float: none;
+ 	text-align: center;
+ }
+ .dhayzon_log_in{
+ 	text-align: center;
+ 	padding: 0 5px;
+ }
+ .dhayzon_log_in li,.dhayzon_log_in input {
+    width: 100%;
+}
+.block-group>.block.stats{
+	display:none;
+}
+.titlebg select {
+    width: 100%;
+    margin-bottom: 11px;
+}
+.topic_stats_dhayzon span{
+    width: 100%;
+    display: inline-block;
+}
+#messageindex .lastpost {
+    width: 84%;
+}
+div.frame{
+	padding: 0;
+}
+.oTersPostT  .keyinfo h3{
+    float: left;
+    width: 75%;
+}
+.firstPostT .TopicButtons {
+    top: inherit;
+}
+}
+@media only screen and (max-width: 365px) {
+	li#button_home .aHamburger-icon{
+		display:inline-block;
+	}
+	.openh #wrapper span.hamburgerIcon{
+		display:none;
+
+	}
+	#boardindex_table .icon,.childboards .icon,#messageindex .icon
+{
+ 	width: 5%;
+}
+
+#content_section .info{
+	width: 40%;
 }
 .table_list .content{
 	padding: 5px;
